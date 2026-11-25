@@ -33,7 +33,6 @@
 *   **Sub / Dub Switch**: Pick your audio per episode.
 
 ### ▶️ **Player**
-*   **Multiple Servers**: Koto (FastCDN), Neko (1080p) and GG (mirror) – switch if one is slow.
 *   **Quality Selector**: Auto or pick the resolution you want.
 *   **Subtitles**: Choose language, size, colours, bold / italic, shadow, background and position.
 *   **Playback Speed** and **Auto-Next** to keep binge sessions going.
@@ -109,17 +108,6 @@ Import it in **Settings → UI & Theme → Custom Themes → Import theme file**
 **Requires Android 7.0 (API 24) or newer.** After the first install, AniHub updates itself.
 
 ---
-
-## 🛠️ Build From Source
-
-```bash
-git clone https://github.com/YOUR_USERNAME/AniHub.git
-cd AniHub
-./gradlew assembleDebug
-```
-
-*   Kotlin + Jetpack Compose (Material 3), Media3 / ExoPlayer, Room, OkHttp.
-*   Release APKs are built and signed by the GitHub Actions workflow (see `RELEASE_GUIDE.md`).
 
 ---
 
