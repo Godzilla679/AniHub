@@ -32,8 +32,7 @@
 *   **Rich Detail Page**: Synopsis, genres, studio, score, and the full episode list (list or grid view).
 *   **Sub / Dub Switch**: Pick your audio per episode.
 
-### ▶️ **Player**
-*   **Multiple Servers**: Koto (FastCDN), Neko (1080p) and GG (mirror) – switch if one is slow.
+### ▶️ **Player* 
 *   **Quality Selector**: Auto or pick the resolution you want.
 *   **Subtitles**: Choose language, size, colours, bold / italic, shadow, background and position.
 *   **Playback Speed** and **Auto-Next** to keep binge sessions going.
@@ -91,7 +90,6 @@ Import it in **Settings → UI & Theme → Custom Themes → Import theme file**
   <!-- Add your screenshots here -->
   <img src="docs/screenshots/home.png" alt="Home" width="220" />
   <img src="docs/screenshots/details.png" alt="Details" width="220" />
-  <img src="docs/screenshots/themes.png" alt="Themes" width="220" />
 </div>
 
 ---
@@ -110,16 +108,6 @@ Import it in **Settings → UI & Theme → Custom Themes → Import theme file**
 
 ---
 
-## 🛠️ Build From Source
-
-```bash
-git clone https://github.com/Godzilla679/AniHub.git
-cd AniHub
-./gradlew assembleDebug
-```
-
-*   Kotlin + Jetpack Compose (Material 3), Media3 / ExoPlayer, Room, OkHttp.
-*   Release APKs are built and signed by the GitHub Actions workflow (see `RELEASE_GUIDE.md`).
 
 ---
 
